@@ -1,5 +1,14 @@
-.brand-logo img {
-  width: 2.01em; }
+.about {
+  background-color: #90AFC5; }
+
+.page-footer {
+  background-color: #336B87 !important; }
+
+.footer-copyright {
+  background-color: #1f4254 !important; }
+
+.brand-logo {
+  margin-left: 0.5em; }
 
 header, main, footer {
   padding-left: 0px; }

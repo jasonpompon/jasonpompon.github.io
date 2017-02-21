@@ -1,7 +1,11 @@
+@import '_about.scss';
+@import '_project.scss';
+@import '_skills.scss';
+@import '_footer.scss';
+@import 'variables.scss';
+
 .brand-logo {
-  img {
-    width: 2.01em;
-  }
+  margin-left: 0.5em;
 }
 
 header, main, footer { padding-left: 0px; }
