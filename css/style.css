@@ -1,5 +1,19 @@
 .about {
-  background-color: #90AFC5; }
+  background-color: #172a30;
+  color: #763626; }
+  .about p {
+    color: #763626; }
+  .about .header {
+    font-family: 'Barrio', cursive; }
+  .about .image {
+    width: 30%;
+    float: left; }
+    .about .image img {
+      max-width: 100%; }
+  .about .about-content {
+    padding: 0 3em;
+    width: 70%;
+    float: right; }
 
 .page-footer {
   background-color: #336B87 !important; }
@@ -7,8 +21,17 @@
 .footer-copyright {
   background-color: #1f4254 !important; }
 
+@media only screen and (max-width: 320px) {
+  a.brand-logo.left-align.hide-on-med-and-up {
+    font-size: 1.15rem; } }
+
+@media only screen and (min-width: 321px) {
+  a.brand-logo.left-align.hide-on-med-and-up {
+    font-size: 1.25rem; } }
+
 .brand-logo {
-  margin-left: 0.5em; }
+  margin-left: 0.5em;
+  font-family: 'Barrio', cursive; }
 
 header, main, footer {
   padding-left: 0px; }
@@ -25,10 +48,5 @@ a.brand-logo.left-align.hide-on-small-only.hide-on-large-only {
 a.brand-logo.left-align.hide-on-small-only.hide-on-large-only span {
   font-size: 1.12rem; }
 
-@media only screen and (max-width: 320px) {
-  a.brand-logo.left-align.hide-on-med-and-up {
-    font-size: 1.15rem; } }
-
-@media only screen and (min-width: 321px) {
-  a.brand-logo.left-align.hide-on-med-and-up {
-    font-size: 1.25rem; } }
+nav {
+  background-color: #2A3132 !important; }
