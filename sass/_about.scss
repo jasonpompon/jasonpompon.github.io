@@ -1,15 +1,15 @@
 @import 'variables.scss';
 
 .about {
-  background-color: $leaf;
-  color: $autumn_foliage;
+  background-color: white;
+  color: $shadow;
 
   p {
-    color: $autumn_foliage;
+    color: $shadow;
   }
 
   .header {
-    font-family: 'Barrio', cursive;
+    font-family: $font-head;
   }
 
   .image {
