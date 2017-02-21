@@ -4,7 +4,8 @@
   .about p {
     color: #2A3132; }
   .about .header {
-    font-family: Patua One, cursive; }
+    font-family: Patua One, cursive;
+    color: #1f4254; }
   .about .image {
     width: 30%;
     float: left; }
@@ -49,7 +50,7 @@ a.brand-logo.left-align.hide-on-small-only.hide-on-large-only span {
   font-size: 1.12rem; }
 
 nav {
-  background-color: #2A3132 !important; }
+  background-color: #336B87 !important; }
 
 .parallax-container {
   height: 30em; }
@@ -59,3 +60,15 @@ nav {
   text-align: center;
   font-size: 2.5em;
   padding-top: 4em; }
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px #90AFC5;
+  margin-top: 9em;
+  font-size: 1.3em; }
+
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent; }
