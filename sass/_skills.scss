@@ -1,1 +1,39 @@
 @import 'variables.scss';
+@import "_about.scss";
+
+.skills {
+  @extend .about;
+
+  span {
+    font-size: 0.6em;
+    color: $mist;
+  }
+}
+
+.skills-icons {
+  text-align: center;
+
+  i {
+    font-size: 3.5em;
+    padding: 0.3em;
+    line-height: 1.5em;
+  }
+
+  span {
+    font-size: 1.7em;
+    padding: 0.6em;
+    color: black;
+  }
+
+  div {
+    // text-align: left;
+    // text-decoration: underline;
+    font-weight: bold;
+    padding: 0.5em 0;
+  }
+
+  .devicon-atom-original-wordmark {
+    font-size: 4.5em;
+  }
+
+}

@@ -1,11 +1,13 @@
 $(document).ready(function(){
+
   $('.parallax').parallax();
   $(".button-collapse").sideNav({
-    menuWidth: 300, //
-    edge: 'right', // Choose the horizontal origin
-    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    menuWidth: 300,
+    edge: 'right',
+    closeOnClick: true,
     draggable: true // Choose whether you can drag to open on touch screens
   });
+
   $(document).on('scroll', function (e) { updateColor(); });
 
   function updateColor() {

@@ -1,0 +1,6 @@
+@import 'variables.scss';
+@import "_about.scss";
+
+.portfolio {
+  @extend .about;
+}

@@ -1,20 +1,76 @@
-.about {
+.about, .portfolio, .skills {
   background-color: white;
   color: #2A3132; }
-  .about p {
+  .about p, .portfolio p, .skills p {
     color: #2A3132; }
-  .about .header {
+  .about .header, .portfolio .header, .skills .header {
     font-family: Patua One, cursive;
     color: #1f4254; }
-  .about .image {
+  .about .image, .portfolio .image, .skills .image {
     width: 30%;
     float: left; }
-    .about .image img {
+    .about .image img, .portfolio .image img, .skills .image img {
       max-width: 100%; }
-  .about .about-content {
+  .about .about-content, .portfolio .about-content, .skills .about-content {
     padding: 0 3em;
     width: 70%;
     float: right; }
+
+.about, .portfolio, .skills {
+  background-color: white;
+  color: #2A3132; }
+  .about p, .portfolio p, .skills p {
+    color: #2A3132; }
+  .about .header, .portfolio .header, .skills .header {
+    font-family: Patua One, cursive;
+    color: #1f4254; }
+  .about .image, .portfolio .image, .skills .image {
+    width: 30%;
+    float: left; }
+    .about .image img, .portfolio .image img, .skills .image img {
+      max-width: 100%; }
+  .about .about-content, .portfolio .about-content, .skills .about-content {
+    padding: 0 3em;
+    width: 70%;
+    float: right; }
+
+.about, .portfolio, .skills {
+  background-color: white;
+  color: #2A3132; }
+  .about p, .portfolio p, .skills p {
+    color: #2A3132; }
+  .about .header, .portfolio .header, .skills .header {
+    font-family: Patua One, cursive;
+    color: #1f4254; }
+  .about .image, .portfolio .image, .skills .image {
+    width: 30%;
+    float: left; }
+    .about .image img, .portfolio .image img, .skills .image img {
+      max-width: 100%; }
+  .about .about-content, .portfolio .about-content, .skills .about-content {
+    padding: 0 3em;
+    width: 70%;
+    float: right; }
+
+.skills span {
+  font-size: 0.6em;
+  color: #90AFC5; }
+
+.skills-icons {
+  text-align: center; }
+  .skills-icons i {
+    font-size: 3.5em;
+    padding: 0.3em;
+    line-height: 1.5em; }
+  .skills-icons span {
+    font-size: 1.7em;
+    padding: 0.6em;
+    color: black; }
+  .skills-icons div {
+    font-weight: bold;
+    padding: 0.5em 0; }
+  .skills-icons .devicon-atom-original-wordmark {
+    font-size: 4.5em; }
 
 .page-footer {
   background-color: #336B87 !important; }
