@@ -15,6 +15,13 @@
     padding: 0 3em;
     width: 70%;
     float: right; }
+  .about img, .portfolio img, .skills img {
+    width: 7em;
+    margin-right: 10px;
+    border-radius: 20px; }
+  .about span, .portfolio span, .skills span {
+    font-size: 0.6em;
+    color: #90AFC5; }
 
 .about, .portfolio, .skills {
   background-color: white;
@@ -33,6 +40,13 @@
     padding: 0 3em;
     width: 70%;
     float: right; }
+  .about img, .portfolio img, .skills img {
+    width: 7em;
+    margin-right: 10px;
+    border-radius: 20px; }
+  .about span, .portfolio span, .skills span {
+    font-size: 0.6em;
+    color: #90AFC5; }
 
 .about, .portfolio, .skills {
   background-color: white;
@@ -51,6 +65,13 @@
     padding: 0 3em;
     width: 70%;
     float: right; }
+  .about img, .portfolio img, .skills img {
+    width: 7em;
+    margin-right: 10px;
+    border-radius: 20px; }
+  .about span, .portfolio span, .skills span {
+    font-size: 0.6em;
+    color: #90AFC5; }
 
 .skills span {
   font-size: 0.6em;
@@ -114,8 +135,9 @@ nav {
 .main-header {
   color: white;
   text-align: center;
-  font-size: 2.5em;
-  padding-top: 4em; }
+  font-size: 2.2em;
+  padding-top: 4em;
+  font-family: 'Orbitron', sans-serif; }
 
 .quote {
   text-align: center;
@@ -128,3 +150,6 @@ nav {
   -webkit-box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
   -moz-box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
   box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent; }
+
+#sidenav-bg {
+  max-width: 100%; }

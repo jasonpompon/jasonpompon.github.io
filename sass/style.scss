@@ -21,19 +21,16 @@ a.brand-logo.left-align.hide-on-small-only.hide-on-large-only { font-size: 1.675
 a.brand-logo.left-align.hide-on-small-only.hide-on-large-only span { font-size: 1.12rem; }
 
 
-nav {
-  background-color: $stone !important;
-}
+nav { background-color: $stone !important; }
 
-.parallax-container {
-  height: 30em;
-}
+.parallax-container { height: 30em; }
 
 .main-header {
   color: white;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.2em;
   padding-top: 4em;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .quote {
@@ -49,4 +46,8 @@ nav {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+#sidenav-bg {
+  max-width: 100%;
 }
