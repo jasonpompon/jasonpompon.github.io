@@ -31,17 +31,14 @@ $(document).ready(function(){
 
   function animateText() {
     var str = "Modern Web Developer";
-
     var spans = '<span>' + str.split(" ").join(' </span><span>') + '</span>';
-
+    console.log($(spans).hide().appendTo('.main-header'));
     $(spans).hide().appendTo('.main-header').each(function(i) {
         $(this).delay(1000 * i).fadeIn();
     });
   }
 
-  function removeText() {
-    $('.main-header span').remove();
-  }
+  function removeText() { $('.main-header span').remove(); }
 
   animateText();
 
@@ -51,6 +48,8 @@ $(document).ready(function(){
 
   setInterval( function() {
     animateText();
-  }, 5000);
+  }, 5001);
+  // TODO 1) find a way to refactor these 2 set interval to one
+  // why do the animation tend to lag afer a while?
 
 });
