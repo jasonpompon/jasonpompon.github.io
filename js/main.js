@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  // parallax from materialize
   $('.parallax').parallax();
   $(".button-collapse").sideNav({
     menuWidth: 300,
@@ -8,7 +9,11 @@ $(document).ready(function(){
     draggable: true // Choose whether you can drag to open on touch screens
   });
 
-  $(document).on('scroll', function (e) { updateColor(); });
+  // nav on scroll change opacity
+  $(document).on('scroll', function (e) {
+    console.log("scrolling");
+    updateColor();
+  });
 
   function updateColor() {
     var o = $(document).scrollTop() / 500;
@@ -21,4 +26,31 @@ $(document).ready(function(){
   }
 
   updateColor();
+
+  // add a fade in effect to title
+
+  function animateText() {
+    var str = "Modern Web Developer";
+
+    var spans = '<span>' + str.split(" ").join(' </span><span>') + '</span>';
+
+    $(spans).hide().appendTo('.main-header').each(function(i) {
+        $(this).delay(1000 * i).fadeIn();
+    });
+  }
+
+  function removeText() {
+    $('.main-header span').remove();
+  }
+
+  animateText();
+
+  setInterval( function() {
+    removeText();
+  }, 5000);
+
+  setInterval( function() {
+    animateText();
+  }, 5000);
+
 });
