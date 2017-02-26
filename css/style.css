@@ -65,7 +65,7 @@
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
   margin: 2em 0; }
 
-.portfolio h4 > button {
+.portfolio h4 > a {
   font-size: 0.4em;
   margin-left: 0.5em;
   padding: 0 10px; }

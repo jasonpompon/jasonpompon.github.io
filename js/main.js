@@ -32,7 +32,6 @@ $(document).ready(function(){
   function animateText() {
     var str = "Modern Web Developer";
     var spans = '<span>' + str.split(" ").join(' </span><span>') + '</span>';
-    console.log($(spans).hide().appendTo('.main-header'));
     $(spans).hide().appendTo('.main-header').each(function(i) {
         $(this).delay(1000 * i).fadeIn();
     });
