@@ -11,7 +11,6 @@ $(document).ready(function(){
 
   // nav on scroll change opacity
   $(document).on('scroll', function (e) {
-    console.log("scrolling");
     updateColor();
   });
 

@@ -1,4 +1,4 @@
-// Smooth scroll for in page links
+// Smooth scroll for in-page links
 $(function(){
     var target, scroll;
 

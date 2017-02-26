@@ -128,6 +128,12 @@
 .footer-copyright {
   background-color: #1f4254 !important; }
 
+a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */ }
+
 @media only screen and (max-width: 320px) {
   a.brand-logo.left-align.hide-on-med-and-up {
     font-size: 1.15rem; } }
@@ -190,3 +196,9 @@ nav {
   margin-top: -63px;
   /*same height as header*/
   visibility: hidden; }
+
+a:hover {
+  text-decoration: underline; }
+
+.button-collapse:hover {
+  text-decoration: none; }

@@ -58,3 +58,11 @@ nav { background-color: $stone !important; }
   margin-top: -63px; /*same height as header*/
   visibility: hidden;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button-collapse:hover {
+  text-decoration: none;
+}

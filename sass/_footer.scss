@@ -5,3 +5,8 @@
 .footer-copyright {
   background-color: $dark-stone !important;
 }
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
