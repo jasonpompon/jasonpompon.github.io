@@ -182,3 +182,11 @@ nav {
 
 #sidenav-bg {
   max-width: 100%; }
+
+.anchor {
+  display: block;
+  height: 63px;
+  /*same height as header*/
+  margin-top: -63px;
+  /*same height as header*/
+  visibility: hidden; }
