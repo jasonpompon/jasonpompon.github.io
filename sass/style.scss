@@ -52,10 +52,11 @@ nav { background-color: $stone !important; }
   max-width: 100%;
 }
 
+// hack to prevent in-page anchor covering section header when using a fix navbar
 .anchor{
   display: block;
-  height: 63px; /*same height as header*/
-  margin-top: -63px; /*same height as header*/
+  height: 63px; /*navbar height*/
+  margin-top: -63px; /*same*/
   visibility: hidden;
 }
 

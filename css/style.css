@@ -192,9 +192,9 @@ nav {
 .anchor {
   display: block;
   height: 63px;
-  /*same height as header*/
+  /*navbar height*/
   margin-top: -63px;
-  /*same height as header*/
+  /*same*/
   visibility: hidden; }
 
 a:hover {
