@@ -19,7 +19,7 @@ This is my portfolio website where I can showcase the best projects I've have be
 The parallax `Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.` effect that you get when scrolling down is one of the cool things I like on this website. It's was quite easy to implement using the materialize library.
 
 ## Angry bit
-Getting things to aline took a while. Especially in the skills section.
+Getting things to align took a while. Especially in the skills section.
 
 ## Tech
 `html5` `SCSS` `javascript` `jQuery` `materialize(by google)` `Gulp`
