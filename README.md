@@ -3,7 +3,7 @@
 ## Synopsis
 This is my portfolio website where I can showcase the best projects I've have been working on recently. It is responsive for any screen size and resolutions. I welcome any type of feedback!
 
-**[Live](http://www.imjas.me/)**
+**[See the website Live by clicking here!](http://www.imjas.me/)**
 
 ## Installation Instruction
 > to install the dependencies
