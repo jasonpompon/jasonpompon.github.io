@@ -13,6 +13,5 @@
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^2.3.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
